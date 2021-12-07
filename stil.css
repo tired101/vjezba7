@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 5%;
+    box-sizing: border-box;
+    
+    background-image: url("stavke/zid.jpg");
+	background-repeat: no-repeat;
+}
+
+#ekran {
+    width: 640px;
+    height: 500px;
+    background-image: url("stavke/monitor.png");
+    margin: 0px auto;
+    box-sizing: border-box;
+    padding: 15px 15px 163.5px 15px;
+}
+
+#ekran iframe {
+    width: 100%;
+    height: 100%;
+    background-color: cadetblue;
+}
+
+
+#komoda {
+    width: 40%;
+    min-width: 300px;
+	min-height: 400px; 
+    margin: 0 auto;
+    display: grid;
+	grid-column-gap: 5px;
+	padding: 5px;
+	grid-row-gap: 5px;
+	grid-template-columns: 140px 250px 150px;
+	grid-template-rows: 170px 280px;
+	
+	position: relative;
+	
+}
+
+#grid{
+	background-color: cadetblue;
+	
+}
+
+#komoda, #komoda div, #linija iframe {
+    background-color: saddlebrown;
+    border: 5px solid #9E7748;
+    border-radius: 5px;
+}
+
+#fotka {
+    
+	grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+
+#caseta {
+    grid-column-end: span 2;
+}
+
+
+
+
+#caseta, #vrpca, #fotka {
+	
+	 display: flex;
+  justify-content: center;
+	 flex-direction: column;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
